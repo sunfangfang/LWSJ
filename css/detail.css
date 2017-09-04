@@ -1,0 +1,589 @@
+.header{
+    width: 100%;
+    background: #f2f2f2;
+    height: 108px;
+    position: relative;
+}
+.detail_content{
+    background-color: #e2e2e2;
+    padding-bottom: 10px;
+}
+.detail_banner,.detail_banner img{
+    width: 100%;
+    height:auto;
+}
+.detail_banner{
+    margin-bottom: 50px;
+}
+.info_wrap img{
+    width: 100%;
+    height: auto;
+}
+.boxShadow{
+    box-shadow: 10px 2px 50px #ccc;
+    margin-bottom: 70px;
+}
+.margin_btm50{
+    margin-bottom: 50px;
+}
+.detail_active{
+    width: 100%;
+    padding:20px 60px;
+    overflow: hidden;
+    background: #fff;
+}
+.detail_active li{
+    float: left;
+    width: 20%;
+    padding: 0 15px;
+}
+.active_img{
+    width: 100%;
+    height: 183px;
+    text-align: center;
+    line-height: 183px;
+}
+.active_img img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.active_name{
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 10px;
+}
+.active_price{
+    margin-bottom: 5px;
+}
+.ap_span{
+    font-size: 12px;
+    color: #e30000;
+}
+.ap_price{
+    font-size: 20px;
+    color: #e30000;
+    font-weight: bold;
+}
+.ap_btm{
+    width: 100%;
+    height:40px;
+    border: 1px solid #e30000;
+    line-height: 40px;
+    font-size: 14px;
+}
+.add_car{
+    float: left;
+    display: inline-block;
+    width: 55%;
+    padding-left: 23px;
+    background:url("../img/shop_car.png") no-repeat 3px center;
+    color: #e30000;
+}
+.buy{
+    float: right;
+    width: 45%;
+    height: 38px;
+    background: #e30000;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+.show_content .info_wrap{
+    margin-bottom: 20px;
+}
+
+
+/*活动内容页*/
+.act_container{
+    padding:50px 0;
+}
+.act_tit{
+    width: 100%;
+    font-size: 40px;
+    color: #333333;
+    text-align: center;
+    line-height: 100px;
+}
+.act_time{
+    text-align: center;
+    font-size: 20px;
+    color:#666666;
+    line-height: 30px;
+}
+.act_clock{
+    margin: -7px 5px 0 0;
+}
+.act_content{
+    margin-top: 50px;
+}
+.act_p{
+    font-size: 20px;
+    color: #999;
+    line-height: 40px;
+    text-indent: 40px;
+    margin-bottom: 40px;
+}
+.act_img{
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.act_img img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+/*最新活动*/
+.list_content{
+    padding-bottom: 30px;
+}
+.list_container{
+    margin-bottom: 100px;
+}
+.list_container>li{
+    width:100%;
+    height: 364px;
+    position: relative;
+    border: 5px solid #e6e6e6;
+    margin-top: 50px;
+}
+.list_block{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 1200px;
+    height: 364px;
+    background: #fff;
+}
+.list_left{
+    float: left;
+}
+.list_left img{
+    width: 100%;
+    height: 100%;
+}
+.list_right{
+    float: left;
+    position: absolute;
+    left: 593px;
+    right: 0;
+    border: 5px solid #e6e6e6;
+    height: 100%;
+    border-left: none;
+    padding: 30px;
+}
+.list_tit{
+    font-size: 28px;
+    color: #333333;
+    margin-bottom: 10px;
+}
+.list_time{
+    font-size: 18px;
+    color: #666666;
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+.list_p{
+    font-size: 16px;
+    color: #999999;
+    text-indent: 32px;
+    height: 190px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 9;
+    overflow: hidden;
+}
+.list_label{
+    width: 200px;
+    height: 330px;
+    background: url("../img/label_bg.png") no-repeat center center;
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    padding: 30px 0;
+}
+.label_tit{
+    font-size: 48px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: -2px;
+    text-align: center;
+}
+.en_tit{
+    font-size: 12px;
+    color: #ffffff;
+    text-align: center;
+}
+.label_sub_tit{
+    margin-left: 30px;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 20px;
+    line-height: 20px;
+}
+.label_ul{
+    padding: 20px 30px;
+}
+.label_ul li{
+    float: left;
+    width: 69px;
+    height: 30px;
+    background: #d93c00;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    color: #fff;
+}
+.label_ul li:nth-child(2n+1){
+    margin: 0 2px 2px 0;
+}
+
+/*客户案例*/
+.cust_content{
+    background-color: #f2f2f2;
+    padding-bottom: 20px;
+}
+.cust_ul{
+    overflow: hidden;
+    margin-top: 20px;
+}
+.cust_ul li{
+    float: left;
+    width: 25%;
+    padding:15px 3px;
+}
+.cust_block{
+    display: inline-block;
+    background: #fff;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.cust_tit1,.cust_tit2,.cust_tit3{
+    width: 100%;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.cust_tit1{
+    font-size: 16px;
+    color: #37b9ef;
+    line-height: 40px;
+}
+.cust_tit2{
+    line-height: 50px;
+    font-size: 22px;
+    color: #333333;
+}
+.cust_tit3{
+    font-size: 16px;
+    color: #999;
+}
+.cust_line{
+    width: 18px;
+    height: 2px;
+    margin: auto;
+    background: #37b9ef;
+}
+.cust_img,.cust_img img{
+    width: 100%;
+    height: auto;
+}
+.cust_top{
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+    text-align: center;
+    padding: 30px 0;
+}
+.cust_top a{
+    display: inline-block;
+    margin: 0 50px;
+}
+.menu_sign{
+    margin-bottom:10px;
+}
+.menu_name{
+    font-size: 12px;
+    color: #666;
+}
+
+
+/*产品详情*/
+.product_content{
+    border-top: 1px solid #f2f2f2;
+}
+.product_show{
+    padding-top: 60px;
+    position: relative;
+    width: 100%;
+}
+.pm-main-l{
+    width: 400px;
+    float: left;
+}
+.product_right{
+    float: left;
+    position: absolute;
+    top: 60px;
+    left: 400px;
+    padding:30px;
+    right: 0;
+}
+.pro_title{
+    font-size: 20px;
+    color: #333;
+    line-height: 40px;
+}
+.pro_sub_tit{
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 10px;
+}
+.pro_price{
+    width: 100%;
+    height: 54px;
+    line-height: 54px;
+    color: #e11818;
+    font-size: 24px;
+    background: #f5f5f5;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+.pro_choose{
+    float: left;
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 20px;
+}
+.pro_choose li{
+    padding: 10px 0;
+    overflow: hidden;
+}
+.choose_left{
+    float: left;
+    padding-left: 30px;
+    color: #666666;
+    font-size: 14px;
+    line-height: 34px;
+    height: 34px;
+}
+.choose_right{
+    float: left;
+    height: 34px;
+}
+.choose_right span{
+    display: inline-block;
+    padding:0 20px;
+    border: 1px solid #acacac;
+    float: left;
+    font-size: 16px;
+    color: #999999;
+    height: 34px;
+    line-height: 34px;
+    margin-left: 15px;
+    border-radius: 17px;
+    cursor: pointer;
+}
+.choose_right span:hover{
+    color: #37b9ef;
+    border: 1px solid #37b9ef;
+}
+.choose_right .active{
+    color: #37b9ef;
+    border: 1px solid #37b9ef;
+}
+.pro_num{
+    clear: both;
+    width: 100%;
+    margin: 30px 0;
+    float: left;
+}
+.pro_num .choose_left{
+    height: 40px;
+    line-height: 40px;
+}
+.num_left{
+    float: left;
+    margin-left: 15px;
+    height: 40px;
+    line-height: 40px;
+    width: 55px;
+    text-align: center;
+    font-size: 14px;
+    color: #333333;
+    border: 1px solid #dcdcdc;
+}
+.num_right{
+    float: left;
+    margin-left: 5px;
+}
+.num_change{
+    width: 22px;
+    height: 18px;
+    line-height: 16px;
+    font-size: 12px;
+    color: #959595;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.pro_btn{
+    float: left;
+    clear: both;
+    width: 180px;
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    color: #fff;
+    background: #df3033;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.lw_tab{
+    clear: both;
+    width: 100%;
+    margin-top: 80px;
+    float: left;
+    border-bottom: 1px solid #dcdcdc;
+}
+.lw_tab li{
+    float: left;
+    height: 70px;
+    line-height: 70px;
+    padding: 0 30px;
+    color: #333333;
+    font-size: 18px;
+    border-bottom:2px solid #fff ;
+    cursor: pointer;
+}
+.lw_tab .active{
+    color: #2ac4f6;
+    border-bottom: 2px solid #2ac4f6;
+}
+.lw_pro_content{
+    width: 970px;
+    float: left;
+    margin-top: 20px;
+    display: none;
+    margin-bottom: 150px;
+}
+.gray_border{
+    border: 1px solid #dcdcdc;
+    display: block;
+}
+.lw_pro_content>img{
+    width: 100%;
+    height: auto;
+}
+.lw_table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.gray_tr{
+    background: #f4f5f6;
+    color: #333;
+}
+.lw_table td{
+    height: 50px;
+    border: 1px solid #dcdcdc;
+    padding: 0 10px;
+}
+.lw_table td:nth-child(2){
+    color: #999999;
+}
+
+
+/*关于我们*/
+.con_box {
+    box-shadow: 0 0 10px rgba(100,100,100,.2);
+    margin-bottom: 15px;
+    clear: both;
+    border: 1px solid #e7e7e7;
+    height: auto;
+    overflow: hidden;
+    background: #fff;
+    margin-top: 20px;
+}
+.cleft {
+    height: auto;
+    width: 240px;
+    float: left;
+    margin-bottom: 20px;
+}
+.cright {
+    height: auto;
+    width: 950px;
+    float: left;
+    margin-bottom: 20px;
+
+}
+.cla {
+    clear: both;
+    height: 110px;
+    width: 220px;
+    margin-top: 20px;
+    margin-left: 15px;
+    float: left;
+}
+.cla img {
+    height: 100%;
+    width: 100%;
+}
+.cl_nav {
+    clear: both;
+    height: auto;
+    width: 220px;
+    float: left;
+    margin-left: 15px;
+}
+.c_nav {
+    font-size: 14px;
+    line-height: 40px;
+    color: #212121;
+    clear: both;
+    float: left;
+    height: 41px;
+    width: 100%;
+    padding-left: 33px;
+    background-image: url(../img/c_nav_bg.jpg);
+    cursor:pointer;
+}
+.c_nav:hover {
+    color: #37B9EF;
+    background-color: #c7e9ef;
+    background-image: url(../img/c_act_bg.png);
+    background-position: center center;
+}
+.c_act {
+    color: #fff;
+    background-image: url("../img/nav_logo03.png");
+    background-color: #37B9EF;
+    background-position: 12px center;
+    background-repeat: no-repeat;
+}
+.cr_hy {
+    height: auto;
+    width: 100%;
+    padding: 30px;
+    display: none;
+    overflow: hidden;
+    clear: both;
+    float: left;
+    margin-bottom: 30px;
+}
+.cr_hy .act_tit{
+    margin-top: 50px;
+    font-size: 28px;
+}
+.cr_hy .act_time{
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+.cr_hy .act_p{
+    font-size: 16px;
+}

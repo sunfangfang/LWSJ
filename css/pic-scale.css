@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+/* {padding: 0;margin: 0;}
+body {margin: 0px;padding: 0px;min-width:1200px;}
+*/
+/*相关样式*/
+/*#showbox { background:#eee;}*/
+#showbox span { background:rgba(254,222,79,0.6);}
+#showsum {left:25px;margin-top:10px;margin-left: -3px;width: 357px!important;}
+#showsum span {box-sizing: border-box;border:0px solid #ddd;margin-left: 0px!important;margin-right: 12px;}
+#showsum span.sel {border: 1px solid #dcdcdc;}
+#showbox p{border:1px solid #ddd;z-index: 9}
+.showpage { width:400px; position:relative;}
+.showpage a { display:block; width:15px; border:1px solid #ddd; height:60px; line-height:60px; background:#eee; text-align:center; font-size:18px; position:absolute; left:0; top:-71px; text-decoration:none; color:#999;}
+.showpage a#shownext { left:auto; right:0;}
+.showpage a:hover { background:#ccc; color:#777;}
+.noticeEdit{
+    text-align: center;
+    background: #ffeae9;
+    line-height: 30px;
+    margin: -10px 0px 0px;
+    font-size: 14px;
+}
+.dashed_border{
+    background: #ffeae9;
+    display: inline-block;
+    padding: 0px 16px;
+    color: inherit!important;
+}
+.dashed_border1{
+    text-decoration: line-through;
+    display: inline-block;
+    padding: 0px 16px;
+    color: inherit!important;
+}
+.dashed_border2{
+    text-decoration: line-through;
+    display: inline-block;
+    padding: 0px 16px;
+    color: inherit!important;
+    background: #ffeae9;
+}
+.detail-for-remind .tab-menu li a.dashed_border{
+    background: #ffeae9;
+    display: inline-block;
+    padding: 0px 16px;
+}
+.noticeEdit a{
+    font-size: 14px;
+    color: #d6363b;
+    border-bottom: 1px solid #d6363b;
+    margin-right: 8px;
+}
+.noticeEdit em{
+    color: #d6363b;
+}
+.notice_edit{
+    width: 100%;
+    opacity: 0.5;
+    background: #000;
+    text-align: center;
+    line-height: 100%;
+    font-size: 20px;
+    position: absolute;
+    z-index: 9999;
+    left: 0px;
+    top:0px;
+    bottom: 0;
+}
+.notice_edit p{
+    font-size: 24px;
+    line-height: 60px;
+    color: #fff;
+}
+.notice_edit span{
+    margin-top: 358px;
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+}
+.noticeEdit a:hover{
+    text-decoration: none;
+}
